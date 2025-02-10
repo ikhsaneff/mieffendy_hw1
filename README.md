@@ -15,7 +15,6 @@ A simple recipe website created for a fictional pie company, featuring a homepag
 
 ## Features
 
-- Responsive design that works on desktop and mobile devices
 - Dark mode support
 - Accessibility features for users with visual impairments
 - Semantic HTML structure
