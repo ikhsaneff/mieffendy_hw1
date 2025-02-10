@@ -39,4 +39,4 @@ A simple recipe website created for a fictional pie company, featuring a homepag
 
 ### Through Github Page
 
-1. Open the link https://ikhsaneff.github.io/webprog-assignment-1/ 
+1. Open the link https://ikhsaneff.github.io/mieffendy_hw1
