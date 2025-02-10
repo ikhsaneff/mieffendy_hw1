@@ -36,3 +36,7 @@ A simple recipe website created for a fictional pie company, featuring a homepag
    ```
 
 3. Open the website: Open `index.html` directly in a web browser
+
+### Through Github Page
+
+1. Open the link https://github.com/ikhsaneff/webprog-assignment-1 
