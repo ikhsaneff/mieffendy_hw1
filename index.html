@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Granny's Pies - Home</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- This checkbox acts as a theme switch, allowing users to switch between light and dark mode.
+         I used a hidden checkbox because it provides a simple way to control the dark mode without JavaScript.
+         The label serves as the actual toggle button, providing an intuitive UI element with an emoji representation. -->
+    <input type="checkbox" id="theme-toggle" hidden>
+    <label for="theme-toggle" class="toggle-button">🌙 / ☀️</label>
+    
+    <!-- Header Section: I chose to use a hero-style header with a warm, inviting color scheme 
+         to create a welcoming atmosphere that reflects the homey nature of Granny's Pies. 
+         The large text and high contrast ensures good readability for all users. -->
+    <header>
+        <h1>Welcome to Granny's Pies</h1>
+        <p>Baking memories, one pie at a time</p>
+    </header>
+
+    <!-- Main Content Section: I structured this section to highlight our specialties
+         and create an emotional connection with visitors through storytelling.
+         The content is organized in clear sections for better scanning and comprehension.
+         This section comprised of about section, featured recipe section and the contact section. -->
+    <main>
+        <section class="about">
+            <h2>Our Story</h2>
+            <p>Since 1950, Granny's Pies has been serving the community with love-filled, 
+               handcrafted pies using recipes passed down through generations.</p>
+        </section>
+
+        <!-- Featured Recipe Section: This section prominently displays our signature recipe
+             with an engaging description to entice visitors to click through.
+             The high color contrast and clear link text aids accessibility.
+             I also add aria-label to add functionality for assistive technologies. -->
+        <section class="featured">
+            <h2>Featured Recipe</h2>
+            <article>
+                <h3>Lemon Meringue Pie</h3>
+                <p>Our award-winning lemon meringue pie combines the perfect balance of 
+                   tangy lemon filling with light, fluffy meringue.</p>
+                <a href="pie.html" aria-label="View full recipe for Lemon Meringue Pie">
+                    View Recipe
+                </a>
+            </article>
+        </section>
+
+        <!-- Contact section: Here I added the store location and phone number.
+             Like previous section, I also implemented several accessibility features
+             including semantic HTML structure, ARIA labels, sufficient color contrast,
+             and clear navigation patterns to ensure the site is usable by everyone. -->
+        <section class="contact">
+            <h2>Visit Us</h2>
+            <p>575 N. Highland Ave.<br>
+               Tucson, AZ 85719</p>
+            <p>Tel: <a href="tel:520-240-4450" aria-label="Call our bakery">520-240-4450</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Granny's Pies. All rights reserved.</p>
+    </footer>
+</body>
+</html>

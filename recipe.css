@@ -1,0 +1,73 @@
+/* Base Styles: These styles establish the foundational look of the recipe page,
+   following the specific requirements while ensuring readability and proper hierarchy.
+   The color scheme matches the exact specifications of the assignment.
+   Black text with white background combined with serif font ensure the readability of the text.*/
+body {
+    background-color: white;
+    color: #404040;
+    font-family: Georgia, Garamond, serif;
+    font-size: 11pt;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Text Styles: Implemented exactly as specified in the requirements,
+   with careful attention to font sizes, colors, and alignment.
+   The consistent styling helps users quickly identify different sections. 
+   There is also the styling for copyright section using courier font and floating style to satisfy the requirement.*/
+h1, h2 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: "Century Gothic", Futura, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: left;
+    font-size: 18pt;
+    font-weight: normal;
+}
+
+a {
+    color: #A4A400;
+}
+
+.recipe-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ingredients ul {
+    padding-left: 40px;
+}
+
+.directions ol {
+    padding-left: 40px;
+}
+
+blockquote {
+    background-color: #FFFFC8;
+    font-style: italic;
+    margin-left: 50px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    float: left;
+    font-family: Courier, monospace;
+    text-align: right;
+}
