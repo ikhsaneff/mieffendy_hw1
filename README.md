@@ -26,12 +26,12 @@ A simple recipe website created for a fictional pie company, featuring a homepag
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/ikhsaneff/webprog-assignment-1.git
+   git clone https://github.com/ikhsaneff/mieffendy_hw1.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd webprog-assignment-1
+   cd mieffendy_hw1
    ```
 
 3. Open the website: Open `index.html` directly in a web browser
